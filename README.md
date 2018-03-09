@@ -1,8 +1,8 @@
 # <center>docker-latex</center>
 
-This project makes compiling LaTeX documents hassle free. You dont have to install LaTeX on your machine to start making beautifully typeset documents. docker-latex container has the environment already set up.
+This project smakes compiling LaTeX documents hassle free. You dont have to install LaTeX on your machine to start making beautifully typeset documents. docker-latex container has the environment already set up.
 
-# How To:
+## How To:
 Make sure you have Docker installed on your machine.
 1. Pull the image from dockerhub [abdulah/docker-latex](https://hub.docker.com/r/abdulah/docker-latex/):
 
@@ -27,9 +27,9 @@ This command should make these three files inside your current working directory
 - hello.log
 - hello.aux
 
-3. In order to compile your own latex code, move to the appropriate directory and run following command:
+3. In order to compile your own latex code, move to your project's directory and run this:
 ```bash
-docker run -d -v $(pwd):/projects/latex/ abdulah/docker-latex:latest bash -c "pdflatex <filename>.tex"
+docker run -d -v $(pwd):/projects/latex/ abdulah/docker-latex:latest bash -c "pdflatex filename.tex"
 ```
-> Replace <filename> with the name of your main tex file.
+> Replace `filename` with the name of your project's main .tex file
 
