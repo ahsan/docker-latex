@@ -1,6 +1,6 @@
 # <center>docker-latex</center>
 
-This project smakes compiling LaTeX documents hassle free. You dont have to install LaTeX on your machine to start making beautifully typeset documents. docker-latex container has the environment already set up.
+This project makes compiling LaTeX documents hassle free. You dont have to install LaTeX on your machine to start making beautifully typeset documents. docker-latex container has the environment already set up.
 
 ## How To:
 Make sure you have Docker installed on your machine.
